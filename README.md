@@ -17,7 +17,7 @@ iii. Can persist, or at least can do so without just pickling
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install haystack_sqlite.
 
 ```bash
-pip install git+git+https://github.com/alanmeeson/haystack_sqlite
+pip install git+https://github.com/alanmeeson/haystack-bm25-sqlite
 ```
 
 ## Usage
@@ -97,6 +97,7 @@ would fill this niche.
 ### Add unit tests
 This is currently manually tested, and lightly so at that.  Adding unit tests would be a good idea.  Some high level 
 paths to cover include:
+
 1. Search with keyword query
 2. Search with keyword query and filters
 3. Add documents
