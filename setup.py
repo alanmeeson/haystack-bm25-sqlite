@@ -7,11 +7,13 @@ setup(
     author="Alan Meeson",
     author_email="alan@carefullycalculated.co.uk",
     install_requires=[
-        'farm-haystack[sql]==1.*'
+        'farm-haystack[sql]==1.*',
+        'numpy',
+        'sqlalchemy'
     ],
     packages=find_packages(
         where='.',
-        include=['haystack_sqlite'],
+        include=['haystack_bm25_sqlite'],
         exclude=[]
     )
 )

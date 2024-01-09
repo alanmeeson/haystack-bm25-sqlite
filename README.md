@@ -26,7 +26,7 @@ pip install git+https://github.com/alanmeeson/haystack-bm25-sqlite
 import os
 from haystack.nodes import PreProcessor, BM25Retriever, PDFToTextConverter
 from haystack.pipelines import Pipeline
-from haystack_sqlite import SQLiteDocumentStore
+from haystack_bm25_sqlite import SQLiteDocumentStore
 
 data_dir = "/path/to/some/pdfs"
 sqlite_url = "sqlite:///:memory:"  # or 'sqlite:///keyword_index.sqlite'
